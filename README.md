@@ -31,19 +31,6 @@ cd c:\packer-Win10
 packer build -only=virtualbox-iso win10.json
 ```
 
-*If you omit the keyword "-only=" images for both Workstation and Virtualbox will be created.*
-
-By default the .iso of Windows 10 is pulled from <http://cdn.digiboy.ir/?b=dlir-s3&f=SW_DVD5_WIN_ENT_LTSC_2019_64-bit_English_MLF_X21-96425.ISO>
-
-You can change the URL to one closer to your build server. To do so change the **"iso_url"** parameter in the **"variables"** section of the debian9.json file.
-
-```json
-{
-  "variables": {
-      "iso_url": "http://cdn.digiboy.ir/?b=dlir-s3&f=SW_DVD5_WIN_ENT_LTSC_2019_64-bit_English_MLF_X21-96425.ISO"
-}
-```
-
 ## Configuring Input/User Locale & Timezone
 
 To set the input/user locale and timezone according to your preferences edit the following file:
