@@ -1,1 +1,0 @@
-c:\temp\Evergreen-Script-main\evergreen.ps1 -GUIfile c:\temp\Evergreen-Script-main\LastSetting.txt
